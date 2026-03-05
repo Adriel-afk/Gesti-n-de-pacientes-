@@ -1,0 +1,17 @@
+body{
+    background-image: url("img/Background.jpg");/*Para agregar imagenes en el background*/
+
+    background-size: cover;/*Hace que la imagen cubra todo el fonde sin estirarse*/
+    background-position: center;/*centra la imagen*/
+    background-repeat: no-repeat;/*Evita que el fondo se repita si es muy pequeño*/
+    background-attachment: fixed;/*Evita que el fondo se desplace con el contenido*/
+}
+
+.Primer_div{
+    overflow: hidden;/*Sirve para que si algo no cabe dentro del cotenedor mejor se corte y no sobre-salga*/
+    color: white;
+    background-color: rgba(0, 0, 0, 0.349);
+    border: 1px solid rgb(206, 203, 203);
+    border-radius: 8px;
+    padding: 20px;/*Espacio entre componentes(en este caso 20pixeles)*/
+}
