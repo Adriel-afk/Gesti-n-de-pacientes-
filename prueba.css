@@ -15,3 +15,47 @@ body{
     border-radius: 8px;
     padding: 20px;/*Espacio entre componentes(en este caso 20pixeles)*/
 }
+
+.Superhero_Battle{
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+
+    color: white;
+    background-color: rgb(158, 0, 0);
+    border: 4px solid black;
+    border-radius: 8px;
+    font-family: fantasy;
+    font-style: oblique;
+    padding: 20px;
+}
+.Superhero_Battle div{
+    width: 100%;
+    height: 200px;
+
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJckvHMtwQ5rSh9T9Up2-gHexovRSAiPr1A&s");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Superhero_Battle a{
+    text-decoration: none;
+
+    width: 125px;
+    background-color: rgb(0, 0, 61);
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+
+    display: block;
+    text-align: center;
+    width: 200px; /* opcional */
+    margin: 0 auto; /* si tiene ancho definido */
+}
+.Superhero_Battle a:hover{
+    cursor: pointer;
+    background-color: rgb(223, 208, 0);
+    border: 1px solid black;
+    color: black;
+}
