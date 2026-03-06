@@ -34,7 +34,7 @@ body{
 .Superhero_Battle div{
     width: 100%;
     height: 200px;
-margin-right: 100px;
+
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDJckvHMtwQ5rSh9T9Up2-gHexovRSAiPr1A&s");
     background-size: cover;
     background-position: center;
@@ -95,5 +95,6 @@ button{
 }
 
 button:hover{
-    background: #001f6b;
+    background: yellow;
+    color:black;
 }
